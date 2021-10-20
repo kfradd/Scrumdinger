@@ -25,6 +25,7 @@ struct MeetingView: View {
                 }
             }
             .accessibilityElement(children: .ignore)
+            .accessibilityLabel(Text("Time remaining"))
             Circle()
                 .strokeBorder(lineWidth:24,antialiased: true)
             HStack {
